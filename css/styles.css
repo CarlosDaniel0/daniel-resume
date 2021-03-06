@@ -1,0 +1,13 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+.bg-body {
+  background: #f3f4fb;
+}
+
+.bg-network {
+  background: url("/images/back-network.png") top right no-repeat;
+}
