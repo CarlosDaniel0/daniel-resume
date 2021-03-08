@@ -1,4 +1,6 @@
 # Carlos Daniel (Resume)
+[![HitCount](http://hits.dwyl.com/carlosdaniel0/daniel-resume.svg)](http://hits.dwyl.com/carlosdaniel0/daniel-resume)
+
 Este projeto é o código-fonte do currículo online de Carlos Daniel, disponível em: http://daniel-resume-git-main-carlosdaniel0.vercel.app/
 
 ![Preview](https://github.com/carlosdaniel0/daniel-resume/blob/main/print.png?raw=true)
