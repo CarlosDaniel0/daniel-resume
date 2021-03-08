@@ -1,7 +1,7 @@
 # Carlos Daniel (Resume)
 Este projeto é o código-fonte do currículo online de Carlos Daniel, disponível em: http://daniel-resume-git-main-carlosdaniel0.vercel.app/
 
-IMAGEM
+![Preview](https://github.com/carlosdaniel0/daniel-resume/blob/main/print.png?raw=true)
 
 ## Início
 
@@ -15,8 +15,6 @@ Você precisa do NodeJS instalado em sua maquina.
 npm install
 npm run dev
 ```
-
-
 
 ## Colocando em produção
 
