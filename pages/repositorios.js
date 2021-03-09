@@ -1,5 +1,4 @@
 import React from 'react'
-import getUser from '../utils/getUser'
 
 const Index = ({ repos, user }) => {
   return (
@@ -17,7 +16,8 @@ const Index = ({ repos, user }) => {
   )
 }
 export async function getServerSideProps(context) {
-  const { repos, user } = await getUser('carlosdaniel0')
+  const request = await fetch(process.env.API_URL + '/api/getUser')
+  const { repos, user } = await request.json()
   return {
     props: {
       currentDate: new Date().toString(),
